@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d64de7f9-ec8b-4099-919f-71b2ddf47505" name="Changes" comment="Добавил инструкцию и описание проекта">
-      <change afterPath="$PROJECT_DIR$/machine_learning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neural_network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing.py" afterDir="false" />
+    <list default="true" id="d64de7f9-ec8b-4099-919f-71b2ddf47505" name="Changes" comment="Добавил два метода расчета предсказаний моделей и сделал рефакторинг кода">
+      <change beforePath="$PROJECT_DIR$/data_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,12 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713041293210</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавил два метода расчета предсказаний моделей и сделал рефакторинг кода">
+      <option name="closed" value="true" />
+      <created>1713045652710</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713045652710</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создал проект с обучением модели" />
     <MESSAGE value="Добавил инструкцию и описание проекта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил инструкцию и описание проекта" />
+    <MESSAGE value="Добавил два метода расчета предсказаний моделей и сделал рефакторинг кода" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил два метода расчета предсказаний моделей и сделал рефакторинг кода" />
   </component>
 </project>

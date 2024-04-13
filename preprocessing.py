@@ -28,7 +28,7 @@ stress_level_data = delete_nan_value_csv('stress_level.csv')
 
 def truncation_values(stress_level_data):
     """Усечение значений.
-    В файле имеются анамальные значение в колнках noise_level = 1111111 и future_career_concerns = 101010101"""
+    В файле имеются аномальные значение в колнках noise_level = 1111111 и future_career_concerns = 101010101"""
     # Фильтрация колонки свыше 20 и вывести максимальное значение
     value_noise_level = stress_level_data[stress_level_data['noise_level'] > 20]['noise_level'].max()
     print('Значение в колонке value_noise_level котрое имеет аномалии = ', value_noise_level)

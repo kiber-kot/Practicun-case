@@ -12,7 +12,7 @@ def create_svc(x_train, y_train):
 
 def svc(stress_level_data):
     print('-----------------------------------------------------------------------------------------------')
-    print('Метод опроных векторов SVC')
+    print('Метод опорных векторов SVC')
     global value_counts
     # Определение сбалосирована ли выборка
     value_counts = stress_level_data['stress_level'].value_counts()

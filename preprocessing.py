@@ -1,8 +1,6 @@
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.impute import SimpleImputer
-from sklearn.preprocessing import MinMaxScaler, StandardScaler, RobustScaler
+
+from sklearn.preprocessing import MinMaxScaler
 
 array_full_value_data = ['anxiety_level', 'self_esteem', 'mental_health_history', 'depression', 'headache',
                          'blood_pressure', 'sleep_quality', 'breathing_problem',
@@ -55,7 +53,7 @@ def truncation_values(stress_level_data):
 
 
 def scaler(stress_level_data):
-    scaler = MinMaxScaler(feature_range=(0, 1))
+    scaler = MinMaxScaler(feature_range=(-1, 1))
     stress_level_data[array_not_stress_level_value_data] = scaler.fit_transform(stress_level_data[array_not_stress_level_value_data])
     return stress_level_data
 

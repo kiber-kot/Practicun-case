@@ -13,8 +13,8 @@ delete_nan = delete_nan_value_csv('stress_level.csv')
 stress_level_data = scaler(truncation_values(delete_nan))
 
 """Метод нейроной сети MLP"""
-mlp(scaler(truncation_values(delete_nan)))
+mlp(stress_level_data)
 
 """Метод машиного обучения опроных векторов SVC"""
-svc(scaler(truncation_values(delete_nan)))
+svc(stress_level_data)
 
